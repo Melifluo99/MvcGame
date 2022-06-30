@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewData["Title"] = "Login";
+}
+@model LoginViewModels
+
+<center>
+    <div class="card">
+        <div cass="row">
+            <div class="col-md-12">
+                <section>
+                    <form asp-controller="Home" asp-action="Index" method="post">
+                        <h4> Iniciar Sesi&oacute;n  </h4>
+                        <hr />
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="from-grop texte-left"> 
+                            <label asp-for="Input.Email"></label>
+                            <input asp-for="Input.Email" class="form-control" />
+                            <span asp-validation-for="Input.Email" class="texte-danger"></span>
+                        </div>
+                        <div class="form-group text-left">
+                            <label asp-for="Input.Contraseña"></label>
+                            <input asp-for="Input.Contraseña" class="form-control" />
+                            <span asp-validation-for="Input.Contraseña" class="texte-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-deafault">Iniciar Sesion </button>
+                            <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Games" asp-action="Menu">Menu</a>
+                            </li>
+                        </div>
+
+                    </form>
+
+                </section>
+                <label id="indexMessege" class="error"> @Html.DisplayFor(m => m.ErrorMessage)</label>
+            </div>
+
+        </div>
+
+    </div>
+
+</center>

@@ -23,38 +23,46 @@ namespace MvcGame.Models
                 context.Game.AddRange( 
                     new Game
                     {
+                        
                         Title = "When Harry Met Sally",
                         ReleaseDate = DateTime.Parse("1989-2-12"),
                         Genre = "Romantic Comedy",
                         Description =" ",
-                        Price = 7.99M
+                        Price = 7.99M,
+                        Img = "1"
                     },
 
                     new Game
                     {
+                        
                         Title = "Ghostbusters ",
                         ReleaseDate = DateTime.Parse("1984-3-13"),
                         Genre = "Comedy",
                         Description = " ",
-                        Price = 8.99M
+                        Price = 8.99M,
+                        Img = "2"
                     },
 
                     new Game
                     {
+                        
                         Title = "Ghostbusters 2",
                         ReleaseDate = DateTime.Parse("1986-2-23"),
                         Genre = "Comedy",
                         Description = " ",
-                        Price = 9.99M
+                        Price = 9.99M,
+                        Img = "3"
                     },
-
+                    
                     new Game
                     {
+                        
                         Title = "Rio Bravo",
                         ReleaseDate = DateTime.Parse("1959-4-15"),
                         Genre = "Western",
                         Description = " ",
-                        Price = 3.99M
+                        Price = 3.99M,
+                        Img = "4"
                     }
                 );
                 context.SaveChanges();

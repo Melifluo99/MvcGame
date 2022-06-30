@@ -27,6 +27,7 @@ namespace MvcGame.Controllers
 
         public IActionResult Privacy()
         {
+            
             return View();
         }
 
@@ -35,5 +36,6 @@ namespace MvcGame.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
     }
 }

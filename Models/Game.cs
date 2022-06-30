@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Http;
+using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -17,6 +19,11 @@ namespace MvcGame.Models
 
         [Column(TypeName = "decimal(18, 2)")]
         public decimal Price { get; set; }
+        public string Img { get; set; }
+
+        [NotMapped]
+        [DisplayName("Cargar Imagen")]
+        public IFormFile Imagen { get; set; }
     }
     
 }

@@ -37,8 +37,6 @@ C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\MvcGame.pdb
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\MvcGame.genruntimeconfig.cache
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\ref\MvcGame.dll
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\MvcGame.csproj.CopyComplete
-C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\HelloWorld\Index.cshtml.g.cs
-C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\HelloWorld\Welcome.cshtml.g.cs
 C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -151,3 +149,15 @@ C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\Games\Detail
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\Games\Edit.cshtml.g.cs
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\Games\Index.cshtml.g.cs
 C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\Games\Menu.cshtml.g.cs
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\MvcGame.StaticWebAssets.xml
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Fernando\source\repos\MvcGame\bin\Debug\net5.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\MvcGame.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\staticwebassets\MvcGame.StaticWebAssets.xml
+C:\Users\Fernando\source\repos\MvcGame\obj\Debug\net5.0\Razor\Views\Login\Index2.cshtml.g.cs
